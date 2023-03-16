@@ -63,7 +63,7 @@ while not more_than_17 :
     elif computer_score <21 :
         if computer_score < 17 :
             generate2(1)
-            
+            computer_score = sum(computer_card)
             break
         elif computer_score > 17 :
             more_than_17 = True
@@ -76,7 +76,7 @@ if player_score > 21 :
 if computer_score >21 :
      print(f"Your cards are {player_card}, your score is {player_score}.\nComputer cards are {computer_card}, Computer score is {computer_score}\nYou Win !!!")
 
-if player_score <= 21 :
+elif player_score <= 21 :
     if player_score > computer_score :
          print(f"Your cards are {player_card}, your score is {player_score}.\nComputer cards are {computer_card}, Computer score is {computer_score}\nYou Win !!!")
     elif player_score < computer_score :
