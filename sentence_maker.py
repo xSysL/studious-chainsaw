@@ -1,14 +1,25 @@
 def sentence_maker(phrase):
-    interrogatives = ("what", "which", "when", "where", "who", "whom", "whose", 
-    "why", "whether" ,"how")
+    interrogatives = (
+        "what",
+        "which",
+        "when",
+        "where",
+        "who",
+        "whom",
+        "whose",
+        "why",
+        "whether",
+        "how",
+    )
     capitalized = phrase.capitalize()
     if phrase.startswith(interrogatives):
         return "{}?".format(capitalized)
-    else :
+    else:
         return "{}.".format(capitalized)
 
+
 sentences = []
-while True :
+while True:
     user_input = input("Say Something: ")
     if user_input == "\end":
         break
