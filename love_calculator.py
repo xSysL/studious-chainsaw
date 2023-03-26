@@ -19,7 +19,7 @@ E = joined_name.count("e")
 
 total = (T+R+U+E)*10 + (L+O+V+E)
 
-if total < 10 or  total> 90 :
+if total < 10 or total > 90:
     print(f"your score is {total}" , "you go together like coke and mentos")
 elif total > 40 and total < 50:
     print(f"your score is {total}", "you are alright together")

@@ -46,11 +46,11 @@ while not choice_finished :
         break   
 
 
-while not more_than_17 :
+while not more_than_17:
     generate2(1)
     computer_score = sum(computer_card)
     
-    if computer_score > 21 and 11 in computer_card :
+    if computer_score > 21 and 11 in computer_card:
             computer_card = [1 if item == 11 else item for item in computer_card]
             computer_score = sum(computer_card)
             generate2(1)
