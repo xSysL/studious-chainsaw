@@ -12,7 +12,7 @@ print(content, new_content)
 with open("Mail Merge Project Start\\Input\\Letters\\starting_letter.txt") as file:
     text = file.read()
 
-for item in new_content:
-    with open(f"Mail Merge Project Start\\Output\\ReadyToSend\\{item}.txt", "w") as file:
-        new_text = text.replace("[name]", f"{item}")
+for name in new_content:
+    with open(f"Mail Merge Project Start\\Output\\ReadyToSend\\{name}.txt", "w") as file:
+        new_text = text.replace("[name]", f"{name}")
         file.write(new_text)
