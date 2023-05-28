@@ -1,42 +1,24 @@
-MENU = {
-    "espresso": {
-        "ingredients": {
-            "water": 50,
-            "coffee": 18,
-        },
-        "cost": 1.5,
-    },
-    "latte": {
-        "ingredients": {
-            "water": 200,
-            "milk": 150,
-            "coffee": 24,
-        },
-        "cost": 2.5,
-    },
-    "cappuccino": {
-        "ingredients": {
-            "water": 250,
-            "milk": 100,
-            "coffee": 24,
-        },
-        "cost": 3.0,
-    },
-}
+import turtle as t
+import random
+from turtle import Screen
+screen = Screen()
 
-resources = {
-    "water": 300,
-    "milk": 200,
-    "coffee": 100,
-    "money": 0,
-}
-# for value in MENU["espresso"]["ingredients"].values():
-#    print(value)
-choice = input("What would you like? (espresso/latte/cappucino): ")
-# print(MENU[choice]["ingredients"].get("water"))
+tim = t.Turtle()
+jim = t.Turtle()
+rim = t.Turtle()
+bim = t.Turtle()
 
-# print(MENU["espresso"]["ingredients"].values() > resources.values())
-for u, v in resources.items():
-    print(u, v)
-for u, v in MENU[choice]["ingredients"].items():
-    print(u, v)
+tim.shape("turtle")
+tim.color("red")
+
+rim.shape("turtle")
+rim.color("blue")
+
+jim.shape("turtle")
+jim.color("green")
+
+bim.shape("turtle")
+bim.color("yellow")
+
+
+screen.exitonclick()
