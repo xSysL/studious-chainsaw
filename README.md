@@ -1,2 +1,2 @@
 # studious-chainsaw
-lerning to code in python
+Trying to learn to code in Python
