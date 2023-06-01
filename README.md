@@ -1,2 +1,4 @@
 # studious-chainsaw
-Trying to learn to code in Python
+
+Learning to program in Python 3.x
+
