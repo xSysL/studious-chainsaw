@@ -10,9 +10,9 @@ RED = "#e7305b"
 GREEN = "#9bdeac"
 YELLOW = "#f7f5dd"
 FONT_NAME = "Courier"
-WORK_SEC = int(.3*60)
-SHORT_BREAK_SEC = int(.1*60)
-LONG_BREAK_SEC = int(.2*60)
+WORK_SEC = int(25*60)
+SHORT_BREAK_SEC = int(5*60)
+LONG_BREAK_SEC = int(20*60)
 reps = 0
 timer = None
 
